@@ -215,8 +215,8 @@ set ttymouse=xterm2
 set hidden
 
 "Command-T configuration
-let g:CommandTMaxHeight=10
-let g:CommandTMatchWindowAtTop=1
+"let g:CommandTMaxHeight=10
+"let g:CommandTMatchWindowAtTop=1
 
 if has("gui_running")
     "tell the term has 256 colors
@@ -268,8 +268,8 @@ endif
 " else in your ~/.vimrc file, such as:
 " nmap <silent> <Leader>q <Plug>PeepOpen
 
-silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
-nnoremap <silent> <C-f> :call FindInNERDTree()<CR>
+"silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
+nnoremap <silent> <C-f> :NERDTreeFind<CR>
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
@@ -279,7 +279,7 @@ inoremap <C-L> <C-O>:nohls<CR>
 nnoremap <leader>b :BufExplorer<cr>
 
 "map to CommandT TextMate style finder
-nnoremap <leader>t :CommandT<CR>
+"nnoremap <leader>t :CommandT<CR>
 
 "map Q to something useful
 noremap Q gq
@@ -380,7 +380,7 @@ nmap <C-s> :w<CR>
 "nmap <Tab> gt
 "nmap <S-Tab> gT
 
-"Key mapping for textmate-like indentation
+"Key mapping for textmate-lik indentation
 nmap <D-[> <<
 nmap <D-]> >>
 vmap <D-[> <gv
@@ -423,7 +423,7 @@ noremap <LEADER>t <ESC>:NERDTreeToggle<CR>
 inoremap <TAB> <C-N>
 map <F1> :execute "noautocmd vimgrep /" . expand("<cword>") . "/j **/*.rb" <Bar> copen<CR>
 fu! Find(regexp)
-  execute "noautocmd vimgrep /" . a:regexp . "/j **/*.rb"
+  execute "noautocmd vimgrep /" . a:regexp . "/j **"
   copen
 endfunction
 command -nargs=+ F call Find(<q-args>)
@@ -472,13 +472,13 @@ inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 nnoremap <kPlus> o<esc>k
 
-map <leader>o :CommandTBuffer<CR>
-map <leader>p :CommandT<CR>
-let g:CommandTMaxHeight=0
-let g:CommandTMatchWindowAtTop=0
-let g:CommandTMatchWindowReverse=1
-let g:CommandTAcceptSelectionTabMap='<CR>'
-let g:CommandTAcceptSelectionMap='<C-o>'
+"map <leader>o :CommandTBuffer<CR>
+"map <leader>p :CommandT<CR>
+"let g:CommandTMaxHeight=0
+"let g:CommandTMatchWindowAtTop=0
+"let g:CommandTMatchWindowReverse=1
+"let g:CommandTAcceptSelectionTabMap='<CR>'
+"let g:CommandTAcceptSelectionMap='<C-o>'
 
 vnoremap <S-Up> <Up>
 vnoremap <S-Down> <Down>
