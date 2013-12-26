@@ -38,10 +38,22 @@ Bundle "dandorman/vim-colors"
 filetype plugin indent on
 
 color ir_black
+set background=dark
 
-set cursorline
-set expandtab
-set modelines=0
+" Set extra options when running in GUI mode
+if has("gui_running")
+    set guioptions-=T
+    set guioptions+=e
+    set t_Co=256
+    set guitablabel=%M\ %t
+endif
+
+" Set to auto read when a file is changed from the outside
+set autoread
+
+" set cursorline
+" set cursorcolumn
+" set modelines=0
 
 "indent settings
 set shiftwidth=2
@@ -56,26 +68,63 @@ set nofoldenable        "dont fold by default
 
 set wildmode=list:longest   "make cmdline tab completion similar to bash
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
+" Ignore compiled files
+set wildignore=*.o,*~,*.pyc
 
-set clipboard=unnamed
-set synmaxcol=128
-set ttyscroll=10
+"Always show current position
+set ruler
+
+" A buffer becomes hidden when it is abandoned
+set hid
+
+" Configure backspace so it acts as it should act
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+
+" Ignore case when searching
+set ignorecase
+
+" For regular expressions turn magic on
+set magic
+
+" Show matching brackets when text indicator is over them
+set showmatch
+" How many tenths of a second to blink when matching brackets
+set mat=2
+
+" No annoying sound on errors
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
+
+syntax enable
+
+" Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf-8
+
 set nowrap
 set number
-set nowritebackup
-set noswapfile
+
+" Turn backup off, since most stuff is in SVN, git et.c anyway...
 set nobackup
-set incsearch   "find the next match as we type the search
-set hlsearch    "hilight searches by default
-set ignorecase
+set nowb
+set noswapfile
+
+" Makes search act like search in modern browsers
+set incsearch   
+
+" Highlight search results
+set hlsearch
+
+" When searching try to be smart about cases 
 set smartcase
+
 set history=1000
 set mouse=a
 set showcmd     "show incomplete cmds down the bottom
 set showmode    "show current mode down the bottom
-set cursorline
-set cursorcolumn
+
 
 "statusline setup
 set statusline=%f       "tail of the filename
