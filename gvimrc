@@ -13,6 +13,4 @@ imap <C-up> <C-o><C-y>
 nmap <C-down> <C-e>
 imap <C-down> <C-o><C-e>
 
-au GUIEnter * simalt ~x
-
 
