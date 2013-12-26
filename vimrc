@@ -125,20 +125,6 @@ nmap <S-Tab> gT
 
 noremap <LEADER>t <ESC>:NERDTreeToggle<CR>
 
-"TagList
-map <F6> <ESC>:TlistToggle<CR>
-let Tlist_Show_One_File = 1
-let Tlist_Exit_OnlyWindow = 1
-let Tlist_Use_Right_Window = 1
-let Tlist_File_Fold_Auto_Close=1
-let Tlist_Auto_Open = 0
-let Tlist_Auto_Update = 1
-let Tlist_Hightlight_Tag_On_BufEnter = 1
-let Tlist_Enable_Fold_Column = 0
-let Tlist_Process_File_Always = 1
-let Tlist_Display_Prototype = 0
-let Tlist_Compact_Format = 1
-
 cmap w!! %!sudo tee > /dev/null %
 
 map <leader>e :e! ~/.vimrc<cr>
