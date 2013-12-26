@@ -71,6 +71,8 @@ set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
 
+set scrolloff=3
+
 "Always show current position
 set ruler
 
