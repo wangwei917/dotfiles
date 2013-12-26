@@ -16,7 +16,6 @@ Bundle 'tpope/vim-rake'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-ragtag'
-Bundle 'tpope/vim-vividchalk'
 Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'vim-scripts/Haml'
 Bundle 'scrooloose/syntastic'
@@ -25,18 +24,19 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'kien/ctrlp.vim'
 Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
-Bundle 'plasticboy/vim-markdown/'
+Bundle 'plasticboy/vim-markdown'
 Bundle 'akitaonrails/snipmate.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'greyblake/vim-preview'
 Bundle 'hallison/vim-ruby-sinatra'
 Bundle 'vim-ruby/vim-ruby'
 Bundle "mattn/emmet-vim"
+Bundle "dandorman/vim-colors"
 
 
 filetype plugin indent on
 
-color jellybeans
+color ir_black
 
 set cursorline
 set expandtab

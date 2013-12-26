@@ -2,7 +2,10 @@
 "Reassert that no flash or beep is wanted.
 set visualbell t_vb=
 
-noremap <ESC> <ESC>:noh<ESC>
+color codeschool
+set guifont=Monaco:h12
+
+let g:NERDTreeWinPos = "right"
 
 set cursorcolumn
 set cursorline
