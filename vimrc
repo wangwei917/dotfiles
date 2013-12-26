@@ -100,7 +100,7 @@ set novisualbell
 set t_vb=
 set tm=500
 
-syntax enable
+syntax on
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf-8
