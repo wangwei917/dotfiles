@@ -16,8 +16,9 @@ Bundle 'tpope/vim-rake'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-ragtag'
+Bundle 'tpope/vim-rvm'
+Bundle 'tpope/vim-haml'
 Bundle 'vim-scripts/bufexplorer.zip'
-Bundle 'vim-scripts/Haml'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
@@ -80,7 +81,7 @@ set cursorcolumn
 set statusline=%f       "tail of the filename
 
 "Git
-set statusline+=[%{exists('g:loaded_fugitive')?fugitive#statusline():''}]
+set statusline+=%{exists('g:loaded_fugitive')?fugitive#statusline():''}
 
 "RVM
 set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''}
