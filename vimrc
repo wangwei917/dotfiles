@@ -51,8 +51,8 @@ endif
 " Set to auto read when a file is changed from the outside
 set autoread
 
-" set cursorline
-" set cursorcolumn
+set cursorline
+set cursorcolumn
 " set modelines=0
 
 "indent settings
