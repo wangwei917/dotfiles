@@ -3,9 +3,6 @@
 set visualbell t_vb=
 
 color codeschool
-set guifont=Monaco:h12
 
-set cursorcolumn
-set cursorline
 set guitablabel=%M
 
