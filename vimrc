@@ -40,14 +40,6 @@ filetype plugin indent on
 color ir_black
 set background=dark
 
-" Set extra options when running in GUI mode
-if has("gui_running")
-    set guioptions-=T
-    set guioptions+=e
-    set t_Co=256
-    set guitablabel=%M\ %t
-endif
-
 " Set to auto read when a file is changed from the outside
 set autoread
 
@@ -58,6 +50,7 @@ set cursorcolumn
 "indent settings
 set shiftwidth=2
 set softtabstop=2
+set tabstop=2
 set expandtab
 set autoindent
 
@@ -158,14 +151,27 @@ nnoremap Y y$
 
 let g:ragtag_global_maps = 1
 
-"mark syntax errors with :signs
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+"SyntasticEnable php
+"SyntasticEnable javascript
+"SyntasticEnable xhtml
+"SyntasticEnable python
 let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+"let g:syntastic_quiet_warnings=1
 
 "key mapping for window navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+" space / shift-space scroll in normal mode
+noremap <S-space> <C-b>
+noremap <space> <C-f>
 
 "key mapping for saving file
 nmap <C-s> :w<CR>
