@@ -142,6 +142,7 @@ nmap <Down> gj
 nmap <Up> gk
 
 "silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
+au VimEnter *  NERDTree
 nnoremap <silent> <C-f> :NERDTreeFind<CR>
 
 "map to bufexplorer
