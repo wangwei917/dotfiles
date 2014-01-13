@@ -98,7 +98,7 @@ syntax on
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf-8
 
-set nowrap
+set wrap linebreak nolist
 set number
 
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
