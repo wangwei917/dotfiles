@@ -3,8 +3,9 @@
 
 color codeschool
 
-set guioptions-=T
-set guioptions+=e
+"set guioptions-=T
+set guioptions=em
+set showtabline=2
 set t_Co=256
 set guitablabel=%M\ %t
 
