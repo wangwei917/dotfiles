@@ -183,6 +183,8 @@ nmap <S-Tab> gT
 
 noremap <LEADER>t <ESC>:NERDTreeToggle<CR>
 
+let g:ctrlp_working_path_mode=0
+
 cmap w!! %!sudo tee > /dev/null %
 
 map <leader>e :e! ~/.vimrc<cr>

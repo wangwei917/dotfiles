@@ -22,7 +22,7 @@ tmux new-window -t $SESSION:4 -n worker
 tmux new-window -t $SESSION:5 -n martin 
 tmux new-window -t $SESSION:6 -n root 
 
-tmux send-keys -t $SESSION:0 'cd ~/projects; vim' C-m
+tmux send-keys -t $SESSION:0 'cd ~/projects; gvim' C-m
 tmux send-keys -t $SESSION:1 'cdportal; rails s' C-m
 tmux send-keys -t $SESSION:2 'cdce; rackup' C-m
 tmux send-keys -t $SESSION:3 'cdce; rake resque:scheduler' C-m
