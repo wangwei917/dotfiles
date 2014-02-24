@@ -33,6 +33,7 @@ Bundle 'hallison/vim-ruby-sinatra'
 Bundle 'vim-ruby/vim-ruby'
 Bundle "mattn/emmet-vim"
 Bundle "dandorman/vim-colors"
+Bundle "rodjek/vim-puppet"
 
 
 filetype plugin indent on
