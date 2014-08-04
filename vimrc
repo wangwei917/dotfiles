@@ -31,9 +31,9 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'greyblake/vim-preview'
 Plugin 'hallison/vim-ruby-sinatra'
 Plugin 'vim-ruby/vim-ruby'
-Plugin "mattn/emmet-vim"
-Plugin "dandorman/vim-colors"
-Plugin "rodjek/vim-puppet"
+Plugin 'mattn/emmet-vim'
+Plugin 'dandorman/vim-colors'
+Plugin 'rodjek/vim-puppet'
 
 call vundle#end()
 
