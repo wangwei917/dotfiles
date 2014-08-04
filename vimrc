@@ -1,40 +1,41 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " Let Vundle manage Vundle
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " My Bundles
-Bundle 'mileszs/ack.vim'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-rake'
-Bundle 'tpope/vim-cucumber'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-ragtag'
-Bundle 'tpope/vim-rvm'
-Bundle 'tpope/vim-haml'
-Bundle 'vim-scripts/bufexplorer.zip'
-Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'kien/ctrlp.vim'
-Bundle 'kana/vim-textobj-user'
-Bundle 'nelstrom/vim-textobj-rubyblock'
-Bundle 'plasticboy/vim-markdown'
-Bundle 'akitaonrails/snipmate.vim'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'greyblake/vim-preview'
-Bundle 'hallison/vim-ruby-sinatra'
-Bundle 'vim-ruby/vim-ruby'
-Bundle "mattn/emmet-vim"
-Bundle "dandorman/vim-colors"
-Bundle "rodjek/vim-puppet"
+Plugin 'mileszs/ack.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-rake'
+Plugin 'tpope/vim-cucumber'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-ragtag'
+Plugin 'tpope/vim-rvm'
+Plugin 'tpope/vim-haml'
+Plugin 'vim-scripts/bufexplorer.zip'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'kien/ctrlp.vim'
+Plugin 'kana/vim-textobj-user'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'akitaonrails/snipmate.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'greyblake/vim-preview'
+Plugin 'hallison/vim-ruby-sinatra'
+Plugin 'vim-ruby/vim-ruby'
+Plugin "mattn/emmet-vim"
+Plugin "dandorman/vim-colors"
+Plugin "rodjek/vim-puppet"
 
+call vundle#end()
 
 filetype plugin indent on
 
