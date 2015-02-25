@@ -192,6 +192,8 @@ let g:ctrlp_working_path_mode=0
 
 cmap w!! %!sudo tee > /dev/null %
 
+set tags=./tags
+
 map <leader>e :e! ~/.vimrc<cr>
 
 " When vimrc is edited, reload it
