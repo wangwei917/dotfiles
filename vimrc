@@ -26,15 +26,19 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'akitaonrails/snipmate.vim'
 Plugin 'kchmck/vim-coffee-script'
-Plugin 'greyblake/vim-preview'
 Plugin 'hallison/vim-ruby-sinatra'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'mattn/emmet-vim'
 Plugin 'dandorman/vim-colors'
 Plugin 'rodjek/vim-puppet'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 
+" Optional:
+Plugin 'honza/vim-snippets'
+  
 call vundle#end()
 
 filetype plugin indent on
