@@ -176,8 +176,7 @@ map <C-l> <C-w>l
 noremap <S-space> <C-b>
 noremap <space> <C-f>
 
-"key mapping for saving file
-nmap <C-s> :w<CR>
+source $VIMRUNTIME/mswin.vim
 
 "key mapping for tab navigation
 nmap <Tab> gt
