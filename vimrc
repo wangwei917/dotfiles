@@ -36,6 +36,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'Rykka/riv.vim'
+Plugin 'Rykka/InstantRst'
 
 " Optional:
 Plugin 'honza/vim-snippets'
