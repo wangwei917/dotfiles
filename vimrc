@@ -35,6 +35,7 @@ Plugin 'rodjek/vim-puppet'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
+Plugin 'Rykka/riv.vim'
 
 " Optional:
 Plugin 'honza/vim-snippets'
