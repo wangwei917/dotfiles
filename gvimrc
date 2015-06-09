@@ -1,7 +1,7 @@
 "When the GUI starts, t_vb is reset to its default value.
 "Reassert that no flash or beep is wanted.
 
-color codeschool
+"color codeschool
 
 "set guioptions-=T
 set guioptions+=em
