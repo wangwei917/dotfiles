@@ -30,7 +30,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'hallison/vim-ruby-sinatra'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'mattn/emmet-vim'
-Plugin 'dandorman/vim-colors'
+"Plugin 'dandorman/vim-colors'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'rodjek/vim-puppet'
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -46,7 +46,7 @@ call vundle#end()
 
 filetype plugin indent on
 
-set background=light
+set background=dark
 colorscheme solarized
 
 " Set to auto read when a file is changed from the outside
