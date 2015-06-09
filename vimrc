@@ -31,6 +31,7 @@ Plugin 'hallison/vim-ruby-sinatra'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'mattn/emmet-vim'
 Plugin 'dandorman/vim-colors'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'rodjek/vim-puppet'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -45,8 +46,8 @@ call vundle#end()
 
 filetype plugin indent on
 
-color ir_black
-set background=dark
+set background=light
+colorscheme solarized
 
 " Set to auto read when a file is changed from the outside
 set autoread
