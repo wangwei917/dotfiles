@@ -1,12 +1,12 @@
 [user]
-	name = Martin Wang
-	email = martin.wang@appcara.com
+  name = Martin Wang
+  email = martin.wang@appcara.com
 [alias]
-	myprofile = config user.email \"wangwei917@gmail.com\"
-	co = checkout
-	ci = commit
-	st = status
-	last = log -1 HEAD
+  myprofile = config user.email \"wangwei917@gmail.com\"
+  co = checkout
+  ci = commit
+  st = status
+  last = log -1 HEAD
   cm = commit -m
   cma = commit -a -m
   ca = commit --amend
@@ -57,6 +57,7 @@
   sl = stash list
   sa = stash apply
   ss = stash save
+  sp = stash pop
 
   cp = cherry-pick
   grep = grep -Ii
@@ -100,8 +101,8 @@
   #add bitbucket remote
   ra = "!f() { git remote add $1 https://bitbucket.org/$2.git; }; f"
 [push]
-	default = simple
+  default = simple
 [pull]
-	rebase = true
+  rebase = true
 [rebase]
-	autosquash = true
+  autosquash = true
