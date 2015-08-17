@@ -2,7 +2,8 @@ set nocompatible
 filetype off
 
 set rtp+=~/dotfiles/bundle/Vundle.vim
-call vundle#begin()
+"call vundle#begin()
+call vundle#begin('~/dotfiles/bundle/')
 
 " Let Vundle manage Vundle
 Plugin 'gmarik/vundle'
