@@ -2,7 +2,7 @@
 
 1. Introduction:
 
-   Installation requires [Git] and triggers [`git clone`] for each configured repository to `~/.vim/bundle/` by default.
+   Installation requires [Git] and triggers [`git clone`] for each configured repository to `~/dotfiles/bundle/` by default.
    Curl is required for search.
 
    If you are using Windows, go directly to [Windows setup]. If you run into any issues, please consult the [FAQ].
@@ -10,7 +10,7 @@
 
 2. Set up [Vundle]:
 
-   `$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+   `$ git clone https://github.com/gmarik/Vundle.vim.git ~/dotfiles/bundle/Vundle.vim`
 
 3. Configure Plugins:
 
@@ -21,7 +21,7 @@
    filetype off                  " required
 
    " set the runtime path to include Vundle and initialize
-   set rtp+=~/.vim/bundle/Vundle.vim
+   set rtp+=~/dotfiles/bundle/Vundle.vim
    call vundle#begin()
    " alternatively, pass a path where Vundle should install plugins
    "call vundle#begin('~/some/path/here')
