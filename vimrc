@@ -37,8 +37,8 @@ Plugin 'rodjek/vim-puppet'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
-Plugin 'Rykka/riv.vim'
-Plugin 'Rykka/InstantRst'
+"Plugin 'Rykka/riv.vim'
+"Plugin 'Rykka/InstantRst'
 
 " Optional:
 Plugin 'honza/vim-snippets'
