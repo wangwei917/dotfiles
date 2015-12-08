@@ -197,6 +197,8 @@ source $VIMRUNTIME/mswin.vim
 nmap <Tab> gt
 nmap <S-Tab> gT
 
+nmap <F4> @q
+
 noremap <LEADER>t <ESC>:NERDTreeToggle<CR>
 
 let g:ctrlp_working_path_mode=0
