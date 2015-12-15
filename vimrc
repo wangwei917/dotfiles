@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " My Bundles
 Plugin 'mileszs/ack.vim'
+Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rails'
