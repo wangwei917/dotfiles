@@ -1,8 +1,6 @@
 [user]
   name = Martin Wang
-  email = martin.wang@appcara.com
 [alias]
-  myprofile = config user.email \"wangwei917@gmail.com\"
   co = checkout
   ci = commit
   st = status
