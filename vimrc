@@ -49,12 +49,9 @@ Plugin 'honza/vim-snippets'
 call vundle#end()
 
 filetype plugin indent on
-if has('gui_running')
-  colorscheme solarized
-  set background=dark
-else
-  set background=light
-endif
+set t_Co=256
+colorscheme solarized
+set background=dark
   
 
 " Set to auto read when a file is changed from the outside
