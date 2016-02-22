@@ -1,5 +1,6 @@
 [user]
   name = Martin Wang
+  email = "(none)"
 [alias]
   co = checkout
   ci = commit
